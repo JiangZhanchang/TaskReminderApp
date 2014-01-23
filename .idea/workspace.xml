@@ -10,23 +10,19 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9bcf584-5d7d-45b6-a951-1f7e0e6853c1" name="Default" comment="Add reminder edit related objects, and add a menu to reminder list view.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderEditActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderEditFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/list_menu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/reminder_edit.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/reminder_edit_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/reminder_row.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderListActivity.java" afterPath="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderListActivity.java" />
+    <list default="true" id="c9bcf584-5d7d-45b6-a951-1f7e0e6853c1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/DatePickerDialogFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/TimePickerDialogFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/list_menu_item_longpress.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderEditFragment.java" afterPath="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderEditFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderListFragment.java" afterPath="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/reminder_edit.xml" afterPath="$PROJECT_DIR$/res/layout/reminder_edit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\EclipseWorkSpace\TaskReminderApp\res\layout\main.xml" afterPath="$PROJECT_DIR$/res/layout/reminder_list.xml" />
     </list>
     <ignored path="TaskReminderApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,49 +97,52 @@
     <breakpoint_rules />
     <ui_properties />
   </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="TimePickerDialogFragment.java" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/TimePickerDialogFragment.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="22" column="5" selection-start="859" selection-end="859" vertical-scroll-proportion="0.71836734" vertical-offset="0" max-vertical-offset="490">
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="TimePickerDialog.java" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://D:/AndroidSDK/sdk/sources/android-19/android/app/TimePickerDialog.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="87" column="59" selection-start="2980" selection-end="2992" vertical-scroll-proportion="0.0" vertical-offset="813" max-vertical-offset="2272">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="TaskReminderApp" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReminderEditActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderEditActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="50" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReminderListFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderListFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
-              <folding>
-                <element signature="e#1134#1186#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReminderEditFragment.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderEditFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.09045226" vertical-offset="316" max-vertical-offset="816">
+            <state line="82" column="33" selection-start="2874" selection-end="2874" vertical-scroll-proportion="0.30612245" vertical-offset="1162" max-vertical-offset="2400">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2555#2705#0" expanded="true" />
+                <element signature="e#2694#2695#0" expanded="true" />
+                <element signature="e#2748#2898#0" expanded="true" />
+                <element signature="e#2887#2888#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,13 +167,16 @@
         <option value="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderProvider.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderEditFragment.java" />
         <option value="$PROJECT_DIR$/res/layout/reminder_row.xml" />
-        <option value="$PROJECT_DIR$/res/layout/reminder_edit.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/menu/list_menu.xml" />
         <option value="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderEditActivity.java" />
+        <option value="$PROJECT_DIR$/res/menu/list_menu_item_longpress.xml" />
         <option value="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderListFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/DatePickerDialogFragment.java" />
+        <option value="$PROJECT_DIR$/res/layout/reminder_edit.xml" />
+        <option value="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/TimePickerDialogFragment.java" />
+        <option value="$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderEditFragment.java" />
       </list>
     </option>
   </component>
@@ -283,6 +285,10 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -299,6 +305,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskReminderApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskReminderApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,6 +365,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -593,6 +615,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -619,46 +646,50 @@
       <workItem from="1390293073469" duration="2854000" />
       <workItem from="1390356288947" duration="3994000" />
       <workItem from="1390381936061" duration="800000" />
-      <workItem from="1390438155327" duration="6113000" />
+      <workItem from="1390438155327" duration="16860000" />
     </task>
     <task id="LOCAL-00001" summary="Modify strings value.">
       <created>1390379336979</created>
       <updated>1390379336979</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add reminder edit related objects, and add a menu to reminder list view.&#10;">
+      <created>1390444552422</created>
+      <updated>1390444552422</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17087000" />
+    <option name="totallyTimeSpent" value="27834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43118593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34718102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39663866" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39805827" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2672956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15334421" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19180088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22541603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -740,13 +771,6 @@
         <state line="2" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="432" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/AndroidSDK/sdk/sources/android-19/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5233" column="0" selection-start="221250" selection-end="221250" vertical-scroll-proportion="0.0" vertical-offset="81711" max-vertical-offset="85440" />
@@ -822,62 +846,141 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/reminder_edit.xml">
-      <provider editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="784">
-          <folding>
-            <element signature="e#295#321#0" expanded="true" />
-            <element signature="e#451#473#0" expanded="true" />
-            <element signature="e#935#958#0" expanded="true" />
-            <element signature="e#1452#1475#0" expanded="true" />
-            <element signature="e#1749#1772#0" expanded="true" />
-            <element signature="e#2087#2113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/list_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="45" selection-start="246" selection-end="246" vertical-scroll-proportion="0.18306637" vertical-offset="0" max-vertical-offset="437">
           <folding>
-            <element signature="e#225#246#0" expanded="true" />
+            <element signature="e#225#246#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+        <state line="12" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/AndroidSDK/sdk/sources/android-19/android/view/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="17" selection-start="2065" selection-end="2065" vertical-scroll-proportion="-14.612591" vertical-offset="6579" max-vertical-offset="6992">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderEditActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="50" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+        <state line="25" column="33" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/AndroidSDK/sdk/sources/android-19/android/view/MenuInflater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="16" selection-start="3486" selection-end="3486" vertical-scroll-proportion="0.9908467" vertical-offset="751" max-vertical-offset="7280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
+        <state line="61" column="0" selection-start="2117" selection-end="2117" vertical-scroll-proportion="0.0" vertical-offset="888" max-vertical-offset="1456">
           <folding>
-            <element signature="e#1134#1186#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1069#1121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/list_menu_item_longpress.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/AndroidSDK/sdk/sources/android-19/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18422" column="0" selection-start="717316" selection-end="717316" vertical-scroll-proportion="0.0" vertical-offset="291378" max-vertical-offset="309968">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/AndroidSDK/sdk/sources/android-19/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="0" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.0" vertical-offset="1270" max-vertical-offset="12464">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/AndroidSDK/sdk/sources/android-19/com/android/internal/os/ZygoteInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="788" column="31" selection-start="27340" selection-end="27340" vertical-scroll-proportion="3.7429466" vertical-offset="10710" max-vertical-offset="12080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/reminder_edit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="35" selection-start="840" selection-end="840" vertical-scroll-proportion="0.676259" vertical-offset="68" max-vertical-offset="832">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://D:/AndroidSDK/sdk/sources/android-19/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="0" selection-start="4718" selection-end="4718" vertical-scroll-proportion="0.3090379" vertical-offset="1798" max-vertical-offset="4688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/AndroidSDK/sdk/sources/android-19/android/app/TimePickerDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="59" selection-start="2980" selection-end="2992" vertical-scroll-proportion="0.0" vertical-offset="813" max-vertical-offset="2272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/TimePickerDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="859" selection-end="859" vertical-scroll-proportion="0.71836734" vertical-offset="0" max-vertical-offset="490">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/DatePickerDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="31" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/app/eric/TaskReminderApp/ReminderEditFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.09045226" vertical-offset="316" max-vertical-offset="816">
+        <state line="82" column="33" selection-start="2874" selection-end="2874" vertical-scroll-proportion="0.30612245" vertical-offset="1162" max-vertical-offset="2400">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2555#2705#0" expanded="true" />
+            <element signature="e#2694#2695#0" expanded="true" />
+            <element signature="e#2748#2898#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
           </folding>
         </state>
       </provider>
