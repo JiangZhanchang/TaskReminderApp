@@ -2,4 +2,10 @@
 <resources>
     <string name="app_name">Task Reminder App</string>
     <string name="no_reminders_note">No Reminders Yet.</string>
+    <string name="remind_Title">Reminder Title</string>
+    <string name="reminder_Body">Reminder Body</string>
+    <string name="reminder_Date">Date</string>
+    <string name="reminder_Time">Reminder Time</string>
+    <string name="reminder_confirm">Save</string>
+    <string name="menu_Insert">Add Reminder</string>
 </resources>

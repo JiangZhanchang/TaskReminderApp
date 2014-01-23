@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="@dimen/commonMarginValue">
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/remind_Title"/>
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/reminder_Title"
+              android:textColor="#000000"
+              android:background="@color/textBackground" android:autoText="false"
+              android:shadowColor="@color/textBackground"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/reminder_Body"/>
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/reminder_Body"
+              android:background="@color/textBackground"
+              android:minLines="5"
+              android:textColor="#000000"
+              android:gravity="top"
+              android:scrollbars="vertical"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/reminder_Date"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder_Date"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/reminder_Time"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder_Time"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reminder_Confirm"
+            android:text="@string/reminder_confirm"/>
+</LinearLayout>

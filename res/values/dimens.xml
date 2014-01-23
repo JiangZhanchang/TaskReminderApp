@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="commonMarginValue">5dp</dimen>
+    <dimen name="reminder_Row_Padding">10dp</dimen>
+</resources>
