@@ -9,4 +9,5 @@
     <string name="reminder_confirm">Save</string>
     <string name="menu_Insert">Add Reminder</string>
     <string name="menu_Delete">Delete</string>
+    <string name="task_saved_message">Task has been saved</string>
 </resources>

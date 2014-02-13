@@ -13,5 +13,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".ReminderEditActivity" android:label="@string/app_name"/>
+
+        <provider android:authorities="com.app.eric.TaskReminderApp.ReminderProvider" android:name=".ReminderProvider"
+                  android:exported="false"/>
+
+
     </application>
 </manifest>
